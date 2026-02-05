@@ -71,4 +71,6 @@ func main() {
 	}
 
 	log.Println("Root CA generated successfully")
+
+	issueServerCert()
 }
